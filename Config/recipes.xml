@@ -3,6 +3,8 @@
     <set xpath="/recipes/recipe[contains(@name, 'ammo')]/@count" craft_area="workbench" tags="workbenchCrafting">5</set>
     <set xpath="/recipes/recipe[@name='resourceConcreteMix']/@count">3</set>
     <set xpath="/recipes/recipe[@name='resourceCobblestones']/@count">3</set>
+    <set xpath="/recipes/recipe[@name='resourceGlue']/@count">2</set>
+    
 
     <append xpath="/recipes">
 

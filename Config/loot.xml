@@ -1,0 +1,6 @@
+<derpytweaks>
+
+    <append xpath="/lootcontainers/lootgroup[@name='sportingGoods']" >
+        <item name="gunBowWoodenParts" count="3,5" />
+    </append>
+</derpytweaks>
