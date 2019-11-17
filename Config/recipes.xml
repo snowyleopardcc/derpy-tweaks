@@ -1,0 +1,33 @@
+<derpytweaks>
+
+    <set xpath="/recipes/recipe[contains(@name, 'ammo')]/@count" craft_area="workbench" tags="workbenchCrafting">5</set>
+    <set xpath="/recipes/recipe[@name='resourceConcreteMix']/@count">3</set>
+    <set xpath="/recipes/recipe[@name='resourceCobblestones']/@count">3</set>
+
+    <append xpath="/recipes">
+
+        <recipe name="resourceOil" count="1" craft_area="chemistryStation" tags="chemStationCrafting" >
+            <ingredient name="foodCropCorn" count="6" />
+            <ingredient name="drinkJarBoiledWater" count="1" />
+        </recipe>
+
+        <recipe name="resourceScrapPolymers" count="5" craft_area="chemistryStation" tags="chemStationCrafting">
+            <ingredient name="foodCornMeal" count="3" />
+            <ingredient name="drinkJarBoiledWater" count="2" />
+            <ingredient name="resourceOil" count="1" />
+        </recipe>
+
+        <recipe name="ammoArrowIron" count="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceArrowHeadIron" count="1"/>
+            <ingredient name="resourceWood" count="1"/>
+            <ingredient name="resourceScrapPolymers" count="1"/>
+        </recipe>
+
+        <recipe name="resourceSpring" count="3" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceOil" count="1"/>
+        </recipe>
+
+    </append>
+</derpytweaks>
+

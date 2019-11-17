@@ -1,0 +1,7 @@
+<derpytweaks>
+
+    <!--   Medical and Ammo Stuff stacks to 50 and 500 respectively   -->
+    <set xpath="/items/item[contains(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>
+    <set xpath="/items/item[contains(@name, 'ammo')]/property[@name='Stacknumber']/@value">500</set>
+
+</derpytweaks>
