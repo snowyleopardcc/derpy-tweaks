@@ -14,6 +14,7 @@
 + Adjusted output count of cobblestone and concrete mix.
 + Added bow parts to sporting goods loot group.
 + Solar panel banks are now craftable.
++ Slightly increased base block damage for the auger and chainsaw.
 + Trader's are now open all night!
 + Tweaked some Trader's Trades.
   + Increased rare books and perk magazines.

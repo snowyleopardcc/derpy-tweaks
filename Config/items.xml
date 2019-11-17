@@ -4,4 +4,10 @@
     <set xpath="/items/item[contains(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>
     <set xpath="/items/item[contains(@name, 'ammo')]/property[@name='Stacknumber']/@value">500</set>
 
+    <set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='BlockDamage']/@value">35</set>
+    <set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='EntityDamage']/@value">10</set>
+
+    <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage']/@value">35</set>
+
+
 </derpytweaks>
