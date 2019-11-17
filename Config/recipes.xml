@@ -4,6 +4,7 @@
     <set xpath="/recipes/recipe[@name='resourceConcreteMix']/@count">3</set>
     <set xpath="/recipes/recipe[@name='resourceCobblestones']/@count">3</set>
     <set xpath="/recipes/recipe[@name='resourceGlue']/@count">2</set>
+    <set xpath="/recipes/recipe[@name='vehicleWheels']/@count">2</set>
     
     <!--  Adjust farm plots to make them cheaper to craft.  -->
     <set xpath="/recipes/recipe[@name='farmPlotBlockPlayer']/ingredient[@name='foodRottingFlesh']/@count">5</set>

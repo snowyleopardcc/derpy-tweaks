@@ -3,7 +3,7 @@
     <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">120</set>
 
     <append xpath="/entity_classes/entity_class[contains(@name, 'zombie')]">
-        <drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
+        <drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" tool_category="Butcher" count="1,2"/>
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
         <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
