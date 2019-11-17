@@ -29,6 +29,19 @@
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="resourceOil" count="1"/>
         </recipe>
+        
+        <recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceBrokenGlass" count="5"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+        </recipe>
+
+        <recipe name="solarCell" count="2" craft_area="workbench" tags="workbenchCrafting,perkMiner69r">
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceBrokenGlass" count="5"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+        </recipe>
 
     </append>
 </derpytweaks>

@@ -9,11 +9,12 @@
 + Craft glue in batches of 2.
 + Craft oil from corn and bottled water.
 + Gain 3 skill points per level.
-+ Trader's are now open all night!
 + Craft plastic from corn starch. (This is a real life thing,  too.)
 + Iron and Steel Arrows can also be crafted using polymer now.
 + Adjusted output count of cobblestone and concrete mix.
 + Added bow parts to sporting goods loot group.
++ Solar panel banks are now craftable.
++ Trader's are now open all night!
 + Tweaked some Trader's Trades.
   + Increased rare books and perk magazines.
   + Increased animal fat.
