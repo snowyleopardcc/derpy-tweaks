@@ -15,6 +15,7 @@
 + Added bow parts to sporting goods loot group.
 + Solar panel banks are now craftable.
 + Slightly increased base block damage for the auger and chainsaw.
++ Farm Plot blocks are now cheaper to make.
 + Trader's are now open all night!
 + Tweaked some Trader's Trades.
   + Increased rare books and perk magazines.
