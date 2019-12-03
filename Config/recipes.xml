@@ -3,12 +3,27 @@
     <set xpath="/recipes/recipe[contains(@name, 'ammo')]/@count" craft_area="workbench" tags="workbenchCrafting">5</set>
     <set xpath="/recipes/recipe[@name='resourceConcreteMix']/@count">3</set>
     <set xpath="/recipes/recipe[@name='resourceCobblestones']/@count">3</set>
-    <set xpath="/recipes/recipe[@name='resourceGlue']/@count">2</set>
+    <set xpath="/recipes/recipe[@name='resourceGlue']/@count" craft_area="chemistryStation" tags="chemStationCrafting" >2</set>
     <set xpath="/recipes/recipe[@name='vehicleWheels']/@count">2</set>
+
+    <set xpath="/recipes/recipe[@name='trapSpikesWoodDmg0']/ingredient[@name='resourceWood']/@count">15</set>
+    <set xpath="/recipes/recipe[@name='resourceScrapBrass']/@count">4</set>
     
     <!--  Adjust farm plots to make them cheaper to craft.  -->
     <set xpath="/recipes/recipe[@name='farmPlotBlockPlayer']/ingredient[@name='foodRottingFlesh']/@count">5</set>
     <set xpath="/recipes/recipe[@name='farmPlotBlockPlayer']/ingredient[@name='resourcePotassiumNitratePowder']/@count">10</set>
+
+    <!--   Wet Concrete Blocks are half the cost,  produce 2 per batch   -->
+    <set xpath="/recipes/recipe[@name='pouredConcreteBlockVariantHelper']/ingredient[@name='resourceConcreteMix']/@count">5</set>
+    <set xpath="/recipes/recipe[@name='pouredConcreteBlockVariantHelper']/@count">2</set>
+
+    <!--   Shotgun Breaching slugs use 1 forged steel per round,  not 4...   -->
+    <set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/ingredient[@name='resourceForgedSteel']/@count">1</set>
+
+    <!-- iron bars in forge are made in pairs  -->
+    <set xpath="/recipes/recipe[@name='ironBars']/@count">2</set>
+    <set xpath="/recipes/recipe[@name='ironBarsCentered']/@count">2</set>
+
 
     <append xpath="/recipes">
 
@@ -45,6 +60,28 @@
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="resourceBrokenGlass" count="5"/>
             <ingredient name="resourceElectricParts" count="5"/>
+        </recipe>
+
+        <recipe name="woodLogSpike1" count="1">
+            <ingredient name="resourceWood" count="15"/>
+        </recipe>
+
+        <recipe name="securityGatePlate" count="2" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+
+            <ingredient name="unit_iron" count="80"/>
+            <ingredient name="unit_clay" count="15"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+            </effect_group>
+        </recipe>
+
+        <recipe name="securityGateCTRPlate" count="2" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+
+            <ingredient name="unit_iron" count="80"/>
+            <ingredient name="unit_clay" count="15"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+            </effect_group>
         </recipe>
 
     </append>

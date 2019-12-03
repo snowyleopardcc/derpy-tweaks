@@ -1,13 +1,22 @@
 <derpytweaks>
 
     <!--   Medical and Ammo Stuff stacks to 50 and 500 respectively   -->
-    <set xpath="/items/item[contains(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>
+    <set xpath="/items/item[contains(@name, 'medical') or @name='drugPainkillers']/property[@name='Stacknumber']/@value">50</set>
     <set xpath="/items/item[contains(@name, 'ammo')]/property[@name='Stacknumber']/@value">500</set>
+    
+    <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">5000</set>
+
+    <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
 
     <set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='BlockDamage']/@value">35</set>
     <set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='EntityDamage']/@value">10</set>
 
     <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage']/@value">35</set>
 
+    <set xpath="/items/item[@name='gunAk47Parts']/property[@name='EconomicValue']/@value">100</set>
+
+    <set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">.15</set>
+
+    <set xpath="/items/item[@name='gunBowPrimitive']/effect_group[@name='gunBowPrimitive']/passive_effect[@operation='base_add']">0</set>
 
 </derpytweaks>

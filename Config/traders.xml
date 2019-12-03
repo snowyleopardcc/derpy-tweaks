@@ -7,5 +7,7 @@
     <set xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']/@count">10</set>
 
     <set xpath="/traders/trader_item_groups/trader_item_group[@name='generalResources']/item[@name='resourceAnimalFat']/@count">200,500</set>
+    <set xpath="/traders/trader_item_groups/trader_item_group[@name='generalResources']/item[@name='gunBowWoodenParts']/@count">10,60</set>
+    <set xpath="/traders/trader_item_groups/trader_item_group[@name='generalResources']/item[@name='gunAk47Parts']/@count">10,60</set>
 	
 </derpytweaks>
