@@ -24,6 +24,8 @@
     <set xpath="/recipes/recipe[@name='ironBars']/@count">2</set>
     <set xpath="/recipes/recipe[@name='ironBarsCentered']/@count">2</set>
 
+    <set xpath="/recipes/recipe[@name='resourceCement']/@count" craft_area="forge">2</set>
+
 
     <append xpath="/recipes">
 
@@ -82,6 +84,13 @@
             <effect_group>
                 <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
             </effect_group>
+        </recipe>
+
+
+        <!-- barbedWireSheet -->
+        <recipe name="barbedWireSheet" count="3" craft_area="workbench" tags="workbenchCrafting" >
+
+            <ingredient name="resourceScrapIron" count="25"/>
         </recipe>
 
     </append>

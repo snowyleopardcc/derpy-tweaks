@@ -2,6 +2,12 @@
     <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">300</set>
     <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">120</set>
 
+    <!-- Deolisher tweaks,  cut entity and block dmg by half...  -->
+    <set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Explosion.BlockDamage']/@value">2500</set>
+    <set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Explosion.EntityDamage']/@value">400</set>
+    <set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='StompsSpikes']/@value">false</set>
+
+
     <append xpath="/entity_classes/entity_class[contains(@name, 'zombie')]">
         <drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" tool_category="Butcher" count="1,2"/>
         <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>

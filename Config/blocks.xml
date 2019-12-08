@@ -1,4 +1,15 @@
 <derpytweaks>
 
+    <!--  Reduce growing time for trees and crops  -->
     <set xpath="/blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">5</set>
+    <set xpath="/blocks/block[@name='treeMasterGrowing']/property[@name='PlantGrowing.GrowthRate']/@value">25</set>
+    <set xpath="/blocks/block[@name='concreteMaster']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">8</set>
+
+    <!-- blade traps,  increased damage and durabililty -->
+    <set xpath="/blocks/block[@name='bladeTrap']/property[@name='Damage']/@value">40</set>
+    <set xpath="/blocks/block[@name='bladeTrap']/property[@name='DamageReceived']/@value">2</set>
+    
+    <!-- electric fence posts / traps,  increased durabililty,  check buffs for damage changes -->
+    <set xpath="/blocks/block[@name='electricfencepost']/property[@name='DamageReceived']/@value">0.25</set>
+    
 </derpytweaks>

@@ -1,4 +1,4 @@
 <derpytweaks>
 
-    <set xpath="/progression/level/@skill_points_per_level">3</set>
+    <set xpath="/progression/level/@skill_points_per_level">2</set>
 </derpytweaks>

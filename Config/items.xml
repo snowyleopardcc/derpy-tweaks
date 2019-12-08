@@ -1,7 +1,14 @@
 <derpytweaks>
 
-    <!--   Medical and Ammo Stuff stacks to 50 and 500 respectively   -->
-    <set xpath="/items/item[contains(@name, 'medical') or @name='drugPainkillers']/property[@name='Stacknumber']/@value">50</set>
+    <!--
+        Medical and Ammo Stuff stacks to 50 and 500 respectively
+
+        drugHerbalAntibiotics
+        drugAntibiotics
+        drugVitamins
+
+    -->
+    <set xpath="/items/item[contains(@name, 'medical') or @name='drugPainkillers' or contains(@name, 'drug')]/property[@name='Stacknumber']/@value">50</set>
     <set xpath="/items/item[contains(@name, 'ammo')]/property[@name='Stacknumber']/@value">500</set>
     
     <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">5000</set>
@@ -15,8 +22,36 @@
 
     <set xpath="/items/item[@name='gunAk47Parts']/property[@name='EconomicValue']/@value">100</set>
 
-    <set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">.15</set>
+    <set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">.10</set>
 
     <set xpath="/items/item[@name='gunBowPrimitive']/effect_group[@name='gunBowPrimitive']/passive_effect[@operation='base_add']">0</set>
+
+    <append xpath="/items">
+
+        <item name="thrownTrainingGrenade">            <!-- T2 demolitions (perk 3) -->
+
+            <property name="Extends" value="thrownGrenadeContact" param1="ExplodeOnHit"/>
+            
+            <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Grenade/GrenadePrefab.prefab"/>
+            
+            <property name="DisplayType" value="ammoGrenade"/>
+
+            <property name="FuseTime" value="3"/>
+            
+            <property name="StickPercent" value=".3"/>
+
+            <property name="ExplodeOnHit" value="false"/>
+
+            <effect_group tiered="false">
+                <passive_effect name="BlockDamage" operation="base_set" value="0"/>
+                <display_value name="dExDamageBlock" value="0"/>
+                <passive_effect name="EntityDamage" operation="base_set" value="0"/>
+                <display_value name="dExDamageEntity" value="0"/>
+                <display_value name="dExRadius" value="5"/>
+                <display_value name="dFuseTime" value="3"/>
+            </effect_group>
+        </item>
+    </append>
+
 
 </derpytweaks>

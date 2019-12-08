@@ -1,0 +1,8 @@
+<tweaks>
+
+    <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">20,35</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='unstickForce']/@value">.65</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='upForce']/@value">4</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">6,0.085</set>
+
+</tweaks>

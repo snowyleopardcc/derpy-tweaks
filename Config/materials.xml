@@ -1,0 +1,4 @@
+<tweaks>
+
+    <set xpath="/materials/material[@id='MbarbedWire']/property[@name='MaxDamage']/@value">1000</set>
+</tweaks>
