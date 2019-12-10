@@ -1,5 +1,26 @@
 <derpytweaks>
 
+    <!-- Bicycle -->
+    <set xpath="/lootcontainers/lootcontainer[@id='76']/@size">9,3</set>
+
+    <!-- Mini bike - aka put put lol -->
+    <set xpath="/lootcontainers/lootcontainer[@id='77']/@size">9,5</set>
+
+    <!-- Motorcycle -->
+    <set xpath="/lootcontainers/lootcontainer[@id='78']/@size">9,7</set>
+
+    <!-- Beverage Cooler (aka / listed as Beer Cooler in Configs) -->
+    <set xpath="/lootcontainers/lootcontainer[@id='52']/@size">6,6</set>
+
+    <!-- Retro Refrigerator -->
+    <set xpath="/lootcontainers/lootcontainer[@id='47']/@size">9,6</set>
+
+    <!-- Popping Pill's - Pill Case -->
+    <set xpath="/lootcontainers/lootcontainer[@id='51']/@size">6,6</set>
+
+    <!-- Storage Crate / Furniture -->
+    <set xpath="/lootcontainers/lootcontainer[@id='1']/@size">9,10</set>
+
     <append xpath="/lootcontainers/lootgroup[@name='sportingGoods']" >
         <item name="gunBowWoodenParts" count="3,5" />
     </append>

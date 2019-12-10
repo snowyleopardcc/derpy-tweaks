@@ -25,6 +25,10 @@
     <set xpath="/recipes/recipe[@name='ironBarsCentered']/@count">2</set>
 
     <set xpath="/recipes/recipe[@name='resourceCement']/@count" craft_area="forge">2</set>
+    <set xpath="/recipes/recipe[@name='rebarFrameBlockVariantHelper' and @craft_area='forge']/@count">2</set>
+
+    <!-- Grenades,  Contact Grenades,  Pipe Bombs,  and Timed charges craft in batches of 3 now -->
+    <set xpath="/recipes/recipe[@name='thrownGrenade' or @name='thrownGrenadeContact' or @name='thrownAmmoPipeBomb' or @name='thrownTimedCharge'or @name='thrownDynamite']/@count">3</set>
 
 
     <append xpath="/recipes">
@@ -92,6 +96,14 @@
 
             <ingredient name="resourceScrapIron" count="25"/>
         </recipe>
+
+
+        <recipe name="cntRetroFridgeVer1Closed" count="1" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="6"/>
+            <ingredient name="resourceMetalPipe" count="5"/>
+            <ingredient name="resourceElectricParts" count="9"/>
+        </recipe>
+
 
     </append>
 </derpytweaks>

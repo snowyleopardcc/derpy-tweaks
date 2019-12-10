@@ -34,6 +34,7 @@
 | Craftable Springs                            | 3         |
 | Glue ( made in `Chem Station` )              | 2         |
 | Barbed Wire Sheeting ( made in `Workbench` ) | 3         |
+| Thrown Explosives                            | 3         |
 
 ### Trap Changes
 + Blade traps do more damage.
@@ -58,3 +59,24 @@
   + Increased rare books and perk magazines.
   + Increased animal fat.
   + Increased bow and gun parts.
+
+
+###  Storage size tweaks
+*Changed the number of cols and rows for some storage containers to the following...*
+*(Pls note the max container size is 90 slots)*
+
+| Container                 | Old | New  |
+| ------------------------- | --- | ---- |
+| Bicycle                   | 9x1 | 9x3  |
+| Mini Bike                 | 9x3 | 9x5  |
+| Motorcycle                | 9x4 | 9x7  |
+| Beverage Cooler           | 6x3 | 6x6  |
+| Retro Refrigerator        | 6x4 | 9x6  |
+| Popping Pill's Pill Case  | 6x4 | 6x6  |
+| Storage Furniture / Crate | 8x9 | 9x10 |
+
+
+
+
+### Fixes to block variants
++ Flagstone (full) gables are now included along with gable quarters.

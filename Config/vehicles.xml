@@ -5,4 +5,9 @@
     <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='upForce']/@value">4</set>
     <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">6,0.085</set>
 
+    <set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='unstickForce']/@value">6</set>
+    <set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='upForce']/@value">6</set>
+    <set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='motorTorqueMaxQ']/@value">18000</set>
+    <set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">24, 48</set>
+
 </tweaks>
