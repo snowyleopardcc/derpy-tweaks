@@ -26,6 +26,94 @@
 
     <set xpath="/items/item[@name='gunBowPrimitive']/effect_group[@name='gunBowPrimitive']/passive_effect[@operation='base_add']">0</set>
 
+    <!-- More Gun Modifer Slots -->
+
+    <set xpath="/items/item[@name='gunPumpShotgun']/effect_group[@name='gunPumpShotgun']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+    <set xpath="/items/item[@name='gunAK47']/effect_group[@name='gunAK47']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+    <set xpath="/items/item[@name='gunPistol']/effect_group[@name='gunPistol']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+    
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+    <set xpath="/items/item[@name='gunDoubleBarrelShotgun']/effect_group[@name='gunDoubleBarrelShotgun']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+    <!-- Adjusting and fixing compound bows and crossbows -->
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='EntityDamage' and @tier='2,6']/@value">.5,2</set>
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='ProjectileVelocity']/@value">1</set>
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='SpreadDegreesVertical']/@value">1</set>
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='SpreadDegreesHorizontal']/@value">1</set>
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='IncrementalSpreadMultiplier']/@value">.5</set>
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='ModPowerBonus']/@value">.5</set>
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='ReloadSpeedMultiplier']/@value">1</set>
+    <set xpath="/items/item[@name='gunBowCompound']/effect_group[@name='gunBowCompound']/passive_effect[@name='RoundsPerMinute']/@value">85</set>
+
+
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='EntityDamage' and @tier='2,6']/@value">.85,2.5</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='ProjectileVelocity']/@value">1</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='SpreadDegreesVertical']/@value">1</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='SpreadDegreesHorizontal']/@value">1</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='IncrementalSpreadMultiplier']/@value">.5</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='ModPowerBonus']/@value">.5</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='ReloadSpeedMultiplier']/@value">1</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='RoundsPerMinute']/@value">85</set>
+
+
+
+
+    <!-- Adjusting base damage on arrows -->
+    <set xpath="/items/item[@name='ammoArrowSteelAP']/effect_group[@name='ammoArrowSteelAP']/passive_effect[@name='EntityDamage']/@value">36</set>
+    <set xpath="/items/item[@name='ammoArrowSteelAP']/effect_group[@name='ammoArrowSteelAP']/passive_effect[@name='ProjectileVelocity']/@value">85</set>
+
+    <set xpath="/items/item[@name='ammoArrowSteelAP']/effect_group[@name='ammoArrowSteelAP']/passive_effect[@name='TargetArmor']/@value">-1</set>
+    <set xpath="/items/item[@name='ammoArrowSteelAP']/effect_group[@name='ammoArrowSteelAP']/display_value[@name='dTargetArmor']/@value">-1</set>
+    
+    <set xpath="/items/item[@name='ammoArrowIron']/effect_group[@name='ammoArrowIron']/passive_effect[@name='EntityDamage']/@value">36</set>
+    <set xpath="/items/item[@name='ammoArrowIron']/effect_group[@name='ammoArrowIron']/passive_effect[@name='ProjectileVelocity']/@value">85</set>
+
+    <set xpath="/items/item[@name='ammoArrowStone']/effect_group[@name='ammoArrowStone']/passive_effect[@name='EntityDamage']/@value">28</set>
+    <set xpath="/items/item[@name='ammoArrowStone']/effect_group[@name='ammoArrowStone']/passive_effect[@name='ProjectileVelocity']/@value">60</set>
+
+    
+    <set xpath="/items/item[@name='ammoCrossbowBoltIron']/effect_group[@name='ammoCrossbowBoltIron']/passive_effect[@name='EntityDamage']/@value">56</set>
+    <set xpath="/items/item[@name='ammoCrossbowBoltIron']/effect_group[@name='ammoCrossbowBoltIron']/passive_effect[@name='ProjectileVelocity']/@value">100</set>
+
+    <set xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/effect_group[@name='ammoCrossbowBoltSteelAP']/passive_effect[@name='EntityDamage']/@value">56</set>
+    <set xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/effect_group[@name='ammoCrossbowBoltSteelAP']/passive_effect[@name='ProjectileVelocity']/@value">100</set>
+
+    <set xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/effect_group[@name='ammoCrossbowBoltSteelAP']/passive_effect[@name='TargetArmor']/@value">-1</set>
+    <set xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/effect_group[@name='ammoCrossbowBoltSteelAP']/display_value[@name='dTargetArmor']/@value">-1</set>
+    
+    <!-- Adjusting recoil on the M60 machine gun -->
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='SpreadDegreesVertical']/@value">1</set>
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='SpreadDegreesHorizontal']/@value">1</set>
+
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='KickDegreesVerticalMin']/@value">-.25</set>
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='KickDegreesVerticalMax']/@value">.5</set>
+
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='KickDegreesHorizontalMin']/@value">-.25</set>
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='KickDegreesHorizontalMax']/@value">.5</set>
+
+
+    <!-- Adjusting magazine sizes -->
+    <set xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">100</set>
+    <set xpath="/items/item[@name='gunTacticalAR']/effect_group[@name='gunTacticalAR']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">20</set>
+    <set xpath="/items/item[@name='gunAK47']/effect_group[@name='gunAK47']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">60</set>
+    <set xpath="/items/item[@name='gunPumpShotgun']/effect_group[@name='gunPumpShotgun']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">12</set>
+      
+    <!-- Remove random magazine size...  WTF is the point,  guys... -->
+    <remove xpath="/items/item[@name='gunM60']/effect_group[@name='gunM60']/passive_effect[@name='MagazineSize' and @operation='perc_add']"></remove>
+    <remove xpath="/items/item[@name='gunPumpShotgun']/effect_group[@name='gunPumpShotgun']/passive_effect[@name='MagazineSize' and @operation='perc_add']"></remove>
+    <remove xpath="/items/item[@name='gunAK47']/effect_group[@name='gunAK47']/passive_effect[@name='MagazineSize' and @operation='perc_add']"></remove>
+    <remove xpath="/items/item[@name='gunTacticalAR']/effect_group[@name='gunTacticalAR']/passive_effect[@name='MagazineSize' and @operation='perc_add']"></remove>
+    <remove xpath="/items/item[@name='gunPistol']/effect_group[@name='gunPistol']/passive_effect[@name='MagazineSize' and @operation='perc_add']"></remove>
+
+
+
     <append xpath="/items">
 
         <item name="thrownTrainingGrenade">            <!-- T2 demolitions (perk 3) -->
@@ -53,5 +141,15 @@
         </item>
     </append>
 
+    <!-- Remove cross hairs for the bows -->
+    <append xpath="/items/item[@name='gunBowCompound']">
+
+        <property name="CrosshairOnAim" value="false"/>        
+    </append>
+
+    <append xpath="/items/item[@name='gunCrossbowCompound']">
+
+        <property name="CrosshairOnAim" value="false"/>
+    </append>
 
 </derpytweaks>

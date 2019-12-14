@@ -9,11 +9,11 @@
 
 
     <append xpath="/entity_classes/entity_class[contains(@name, 'zombie')]">
-        <drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" tool_category="Butcher" count="1,2"/>
-        <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
-        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
+        <drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" tool_category="Butcher" count="4,6"/>
+        <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" tool_category="Butcher" count="6,12"/>
+        <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" tool_category="Butcher" count="6,12"/>
         <drop event="Harvest" name="resourceBone" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
-        <drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" tool_category="Butcher" count="2,4"/>
+        <drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" tool_category="Butcher" count="6,12"/>
         <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
 
     </append>

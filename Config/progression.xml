@@ -1,4 +1,29 @@
 <derpytweaks>
 
     <set xpath="/progression/level/@skill_points_per_level">2</set>
+
+    <!-- Setting harvest level to give ammount of crops back equal to perk level -->
+    <remove xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='HarvestCount']"></remove>
+
+    <append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
+
+        <passive_effect name="HarvestCount" operation="perc_add" level="1,1" value="2" tags="cropHarvest,wildCropsHarvest" />
+        <passive_effect name="HarvestCount" operation="perc_add" level="2,2" value="3" tags="cropHarvest,wildCropsHarvest" />
+        <passive_effect name="HarvestCount" operation="perc_add" level="3,3" value="4" tags="cropHarvest,wildCropsHarvest" />
+        <passive_effect name="HarvestCount" operation="perc_add" level="4,4" value="5" tags="cropHarvest,wildCropsHarvest" />
+        <passive_effect name="HarvestCount" operation="perc_add" level="5,5" value="6" tags="cropHarvest,wildCropsHarvest" />
+    
+    </append>
+
+    <insertAfter xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='5']" >
+
+        <level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="8" desc_key="reqStrengthLevel07"/></level_requirements>
+    </insertAfter>
+
+    <set xpath="/progression/perks/perk[@name='perkMiner69r']/@max_level">6</set>
+
+    <set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='CraftingTier']/@level">1,2,3,4,5,6</set>
+    <set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='CraftingTier']/@value">1,2,3,4,5,6</set>
+    <set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@level">1,6</set>
+
 </derpytweaks>

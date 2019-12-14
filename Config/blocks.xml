@@ -14,4 +14,14 @@
     <!-- electric fence posts / traps,  increased durabililty,  check buffs for damage changes -->
     <set xpath="/blocks/block[@name='electricfencepost']/property[@name='DamageReceived']/@value">0.25</set>
     
+    <!-- <append xpath="/blocks">
+        
+        <block name="microwaveWorking" >
+            <property name="Extends" value="campfire" />
+            <property name="CreativeMode" value="Player"/>
+            <property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
+            <property name="FilterTags" value="floot,ffurniture"/>
+        </block>
+    </append> -->
+
 </derpytweaks>

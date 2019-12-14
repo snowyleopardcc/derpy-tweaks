@@ -30,6 +30,8 @@
     <!-- Grenades,  Contact Grenades,  Pipe Bombs,  and Timed charges craft in batches of 3 now -->
     <set xpath="/recipes/recipe[@name='thrownGrenade' or @name='thrownGrenadeContact' or @name='thrownAmmoPipeBomb' or @name='thrownTimedCharge'or @name='thrownDynamite']/@count">3</set>
 
+    <set xpath="/recipes/recipe[@name='toolAnvil']/ingredient[@name='unit_iron']/@count" >350</set>
+    <set xpath="/recipes/recipe[@name='toolAnvil']/ingredient[@name='unit_clay']/@count" >50</set>
 
     <append xpath="/recipes">
 
